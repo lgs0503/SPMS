@@ -1,0 +1,53 @@
+body{
+	background-color: white;
+}
+.login-bgnd{	
+}
+.login-jumbo{
+	padding: 100px;
+	background-color: #e3ebff;	
+	margin: 200px auto 0;
+	width: 500px;
+	height: 250px;
+	border-radius : 10px;
+	text-align: center;
+}
+.login-jumbo h1{
+	display: inline;
+	font-weight: bold;
+	font-size: 3rem;
+	color: #4B89DC;
+	position :relative;
+	bottom: 130px;
+	border-bottom: 2px solid #4B89DC;
+}
+.login-jumbo input{
+	display: block;
+	margin: 10px auto;
+	width: 200px;
+	height: 30px;
+	border-radius : 10px;
+	border: none;
+}
+.login-jumbo .edt-login{
+	padding : 5px 10px;
+}
+.login-jumbo .btn-login{
+	width: 220px;
+	background-color : #4B89DC;
+	font-weight: bold;
+	color:white;
+}
+.login-jumbo .btn-login:hover{
+	background-color : #004EA2;
+	cursor:pointer;
+	color:black;
+}
+@media(max-width : 571px){ 
+	.login-jumbo{ 
+		width: 200px;
+	} 
+	.login-jumbo h1{
+		font-size: 1.5rem;
+	}
+}
